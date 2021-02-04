@@ -10,9 +10,6 @@
 ![Image text](https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/8ad1fc10-5aed-11eb-b746-5903e342a2e6_2.jpg?v=1611126235)
 ![Image text](https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/8ad1fc10-5aed-11eb-b746-5903e342a2e6_3.jpg?v=1611126237)
 
-#### 软件架构
-软件架构说明
-
 
 #### 安装教程
 
