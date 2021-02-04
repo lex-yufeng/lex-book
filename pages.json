@@ -1,0 +1,96 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+            "path" : "pages/home/home",
+            "style" : {
+            	"app-plus": {  
+            	    // "bounce": "none"  
+            	} 
+            }
+        }
+		,{
+            "path" : "pages/book/book",
+            "style" : {
+				"app-plus": {  
+					"scrollIndicator":"none",
+				    "bounce": "none"  
+				} 
+			}
+        },
+		{
+			"path" : "pages/book/bookinfo",
+			"style" : {
+				"app-plus": {
+					"scrollIndicator":"none",
+					"bounce": "none"  
+				} 
+			}
+		},
+        {
+            "path" : "pages/class/class",
+            "style":{
+				// "navigationStyle": "default"
+				// "bounce": "none"
+            }
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"app-plus": {
+				    "bounce": "none"  
+				}
+			}
+        },
+		{
+		    "path" : "pages/book/read",
+		    "style" : {
+				"app-plus": {
+				    "bounce": "none"  
+				} 
+			}
+		    
+		}
+        ,{
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/index/login",
+		    "style" :                                                                                    
+		    {
+				// "navigationStyle": "default"
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom"
+	},
+	"tabBar":{
+		"list":[{
+			"pagePath": "pages/home/home",
+			"text": "书城"
+		},
+		{
+			"pagePath": "pages/book/book",
+			"text": "书架"
+		},
+		{
+			"pagePath": "pages/class/class",
+			"text": "分类"
+		},
+		{
+			"pagePath": "pages/user/user",
+			"text": "我的"
+		}]
+	}
+}
